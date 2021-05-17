@@ -3,6 +3,8 @@
         max-width: 390px;
         margin: auto;
     }
+/* Header */
+
     header {
         background-color: #191919;
         position: fixed;
@@ -18,6 +20,9 @@
         font-weight: 600;
         padding-left: 5px;
     }
+
+    /* Navbar */
+
     #main-nav {
         background-color: #191919;
         padding: 10px 0;
@@ -48,31 +53,41 @@
         padding-left: 10px;
 
     }
+
+    /* League Title */
+    .league-title {
+        color: #fff;
+        padding: 20px 10px 0 10px;
+        font-weight: 400;
+    }
+    .league-title i {
+        padding-left: 15px;
+    }
+
+    /* Matches */
+
     .match {
         background-color: #191919d2;
         border-radius: 5px;
-        padding: 120px 0;
-        margin: 30px 0;
+        padding: 20px 10px;
+        margin: 40px 20px 10px 20px;
     }
-    .match h3 {
+    .match ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .match ul li {
         color: rgba(255, 255, 255, 0.555);
-        padding-left: 10px;
-        transform: translateY(-100px);
+        padding: 20px 0;
     }
-    .team-name {
-        color: rgba(255, 255, 255, 0.555);
-        padding-left: 10px;
-        transform: translateY(-60px);
-        
-    }
-    .team2 {
-        transform: translateY(-35px);
-    }
+
+    /* Footer */
+
     #footer {
         padding: 30px 0;
     }
     #footer p {
-        color: #fff;
+        color: rgba(255, 255, 255, 0.555);
         text-align: center;
         padding-bottom: 10px;
     }
@@ -96,5 +111,5 @@
     .show {
         display: none;
     }
-
+    
 }
